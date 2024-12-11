@@ -3,25 +3,41 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/reset.css" />
 		<title>Home</title>
 	</head>
 	<body>
 		<header>
 			<nav>
-				<img src="../assets/Payapi.svg" alt="Payapi" />
-				<img src="../assets/Icon-burger-menu.svg" alt="Icon-burger-menu" />
+				<div class="nav-2">
+	 				<img src="../assets/Payapi.svg" alt="Payapi" />
+					<div class="nav-1">
+						<a href="Pages/Pricing.html">Pricing</a>
+						<a href="Pages/About.html">About</a>
+						<a href="Pages/Contact.html">Contact</a>
+					</div>
+				</div>
+				<div class="nav-0">
+					<button class="button">Schedule a Demo</button>
+				</div>
+				<img
+					class="Icon-burger"
+					src="../assets/Icon-burger-menu.svg"
+					alt="Icon-burger-menu"
+				/>
 			</nav>
 		</header>
 		<main>
-			<section>
+			<section class="Start">
 				<img src="../assets/iphone.svg" alt="iphone" />
 				<h1>Start building with our APIs for absolutely free.</h1>
 				<form><input type="email" placeholder="Enter email address" /></form>
 				<a>Schedule a Demo</a>
 				<p>
 					Have any questions?
-					<a href="Contact.html">Contact Us</a>
+					<a href="Pages/Contact.html">Contact Us</a>
 				</p>
 			</section>
 			<section class="Menu-1">
@@ -38,7 +54,7 @@
 					with the tools they need to create easy and accessible experiences for
 					their users.
 				</p>
-				<button><a href="About.html">About Us</a></button>
+				<button><a href="Pages/About.html">About Us</a></button>
 			</section>
 			<section class="Menu-2">
 				<img src="../assets/action_buttons.svg" alt="button" />
@@ -78,16 +94,15 @@
 					authenticate their account.
 				</p>
 				<h6>Ready to start?</h6>
-				<input type="email" placeholder="Enter email address" />
+				<form><input type="email" placeholder="Enter email address" /></form>
 				<a>Schedule a Demo</a>
 			</section>
-
 		</main>
 		<footer>
 			<img src="../assets/Payapi-End.svg" alt="Icon de Payapi" />
-			<p><a href="Pricing.html">Pricing</a></p>
-			<p><a href="About.html">About</a></p>
-			<p><a href="Contact.html">Contact</a></p>
+			<p><a href="Pages/Pricing.html">Pricing</a></p>
+			<p><a href="Pages/About.html">About</a></p>
+			<p><a href="Pages/Contact.html">Contact</a></p>
 			<img src="../assets/reseau sociaux.svg" alt="reseau sociaux" />
 		</footer>
 	</body>

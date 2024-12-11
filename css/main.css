@@ -23,3 +23,82 @@
 	--checkbox-active-color: #ba4270;
 	--checkbox-disabled-color: #36536b;
 }
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.nav-1 {
+	display: none;
+}
+.button {
+	display: none;
+}
+@media screen and (min-width: 768px) {
+	nav {
+		margin: 35px;
+	}
+	.nav-2 {
+		display: flex;
+		gap: 50px;
+	}
+	.nav-1 {
+		display: flex;
+		gap: 50px;
+	}
+
+	.nav-1 a {
+		font-size: 18px;
+		font-weight: 700;
+		text-decoration: none;
+		color: #36536b;
+	}
+
+
+	.button {
+		display: block;
+		background-color: rgba(186, 66, 112, 1);
+		border-radius: 24px;
+		color: white;
+		font-size: 18px;
+		font-weight: 700;
+		padding:5px;
+	}
+	.Icon-burger {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	nav {
+		margin: 35px;
+	}
+	.nav-2 {
+		display: flex;
+		gap: 50px;
+	}
+	.nav-1 {
+		display: flex;
+		gap: 50px;
+	}
+
+	.nav-1 a {
+		font-size: 18px;
+		font-weight: 700;
+		text-decoration: none;
+		color: #36536b;
+	}
+	.button {
+		display: block;
+		background-color: rgba(186, 66, 112, 1);
+		border-radius: 24px;
+		color: white;
+		font-size: 18px;
+		font-weight: 700;
+		padding:8px;
+	}
+	.Icon-burger {
+		display: none;
+	}
+}

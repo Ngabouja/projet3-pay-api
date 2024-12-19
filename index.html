@@ -3,16 +3,17 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/components/button.css" />
+		<link rel="stylesheet" href="css/main.css" />
 		<title>Home</title>
 	</head>
 	<body>
 		<header>
 			<nav>
 				<div class="nav-2">
-	 				<img src="../assets/Payapi.svg" alt="Payapi" />
+					<img src="../assets/Payapi.svg" alt="Payapi" />
 					<div class="nav-1">
 						<a href="Pages/Pricing.html">Pricing</a>
 						<a href="Pages/About.html">About</a>
@@ -20,7 +21,9 @@
 					</div>
 				</div>
 				<div class="nav-0">
-					<button class="button">Schedule a Demo</button>
+					<a class="btn-primary-light button" href="./Pages/About.html"
+						>Schedule a Demo</a
+					>
 				</div>
 				<img
 					class="Icon-burger"
@@ -31,79 +34,119 @@
 		</header>
 		<main>
 			<section class="Start">
-				<img src="../assets/iphone.svg" alt="iphone" />
-				<h1>Start building with our APIs for absolutely free.</h1>
-				<form><input type="email" placeholder="Enter email address" /></form>
-				<a>Schedule a Demo</a>
-				<p>
-					Have any questions?
-					<a href="Pages/Contact.html">Contact Us</a>
-				</p>
+				<img class="iphone" src="../assets/iphone.svg" alt="iphone" />
+				<div class="hero-start">
+					<h1 class="h1-large text-center">Start building</h1>
+					<h1 class="h1-large text-center">with our APIs for</h1>
+					<h1 class="h1-large text-center">absolutely free.</h1>
+					<form class="hero-form">
+						<input type="email" placeholder="Enter email address" />
+						<a class="btn-primary-light" href="./Pages/Contact.html">
+							Schedule a Demo
+						</a>
+					</form>
+					<p class="Contact-home">
+						<span style="margin-right: 4px">Have any questions ?</span>
+						<a class="Contact-home gras" href="Pages/Contact.html"
+							>Contact Us</a
+						>
+					</p>
+				</div>
 			</section>
 			<section class="Menu-1">
-				<img src="../assets/Combined 1.svg" alt="Combined" />
-				<img src="../assets/Combined 2.svg" alt="Combined" />
-				<img src="../assets/Combined 4.svg" alt="Combined" />
-				<img src="../assets/Combined 3.svg" alt="Combined" />
-				<img src="../assets/Combined 5.svg" alt="Combined" />
-				<img src="../assets/Combined 6.svg" alt="Combined" />
-				<h2>Who we work with</h2>
-				<p>
-					Today, millions of people around the world have successfully connected
-					their accounts to apps they love using our API. We provide developers
-					with the tools they need to create easy and accessible experiences for
-					their users.
-				</p>
-				<button><a href="Pages/About.html">About Us</a></button>
+				<article>
+					<img src="../assets/Combined 1.svg" alt="Combined" />
+					<img src="../assets/Combined 2.svg" alt="Combined" />
+					<img src="../assets/Combined 4.svg" alt="Combined" />
+					<img src="../assets/Combined 3.svg" alt="Combined" />
+					<img src="../assets/Combined 5.svg" alt="Combined" />
+					<img src="../assets/Combined 6.svg" alt="Combined" />
+				</article>
+				<div class="article-2">
+					<h2>Who we work with</h2>
+					<div class="white">
+						<p>Today, millions of people around the world have successfully</p>
+						<p>connected their accounts to apps they love using our API. We</p>
+						<p>
+							provide developers with the tools they need to create easy and
+						</p>
+						<p>accessible experiences for their users.</p>
+					</div>
+					<a class="About-button" href="Pages/About.html">About Us</a>
+				</div>
 			</section>
-			<section class="Menu-2">
-				<img src="../assets/action_buttons.svg" alt="button" />
-				<h3>Easy to implement</h3>
-				<p>
-					Our API comes with just a few lines of code. You'll be up and running
-					in no time. We built our documentation page to integrate payments
-					functionality with ease.
-				</p>
+			<section class="Menu-2 tout-centré">
+				<div class="Menu-2-parti-1">
+					<img src="../assets/action_buttons.svg" alt="button" />
+					<div class="tout-center">
+						<h3 class="text-center">Easy to implement</h3>
+						<p>
+							Our API comes with just a few lines of code. You'll be up and
+							running in no time. We built our documentation page to integrate
+							payments functionality with ease.
+						</p>
+					</div>
+				</div>
 				<img src="../assets/Iphone2.svg" alt="iphone" />
-				<h4>Simple UI & UX</h4>
+				<h3>Simple UI & UX</h3>
 				<p>
 					Our pre-built form is easy to integrate in your app or website's
 					checkout flow and designed to optimize conversion.
 				</p>
 			</section>
-			<section class="Menu-3">
-				<img src="../assets/Icon-money.svg" alt="Money" />
-				<h5>Personal Finances</h5>
-				<p>
-					Consolidate financial data from multiple sources and categorize
-					transactions up to 2 years of history. Analyze reports to reconcile
-					activities in your account.
-				</p>
-				<img src="../assets/Icon-stat.svg" alt="stat" />
-				<h5>Banking & Coverage</h5>
-				<p>
-					With our platform, you can speed up account onboarding and support
-					ongoing payments for checking, savings, credit card, and brokerage
-					accounts.
-				</p>
-				<img src="../assets/Icon-money2.svg" alt="Money" />
-				<h5>Consumer Payments</h5>
-				<p>
-					It's easier to set up secure bank payments with us through a flow
-					designed with the user experience in mind. Customers could instantly
-					authenticate their account.
-				</p>
-				<h6>Ready to start?</h6>
-				<form><input type="email" placeholder="Enter email address" /></form>
-				<a>Schedule a Demo</a>
+			<section class="Menu-3 tout-centré">
+				<div class="Icon-centre">
+					<img class="Icon" src="../assets/Icon-money.svg" alt="Money" />
+					<h5>Personal Finances</h5>
+					<p>
+						Consolidate financial data from multiple sources and categorize
+						transactions up to 2 years of history. Analyze reports to reconcile
+						activities in your account.
+					</p>
+				</div>
+				<div class="Icon-centre">
+					<img class="Icon" src="../assets/Icon-stat.svg" alt="stat" />
+					<h5>Banking & Coverage</h5>
+					<p>
+						With our platform, you can speed up account onboarding and support
+						ongoing payments for checking, savings, credit card, and brokerage
+						accounts.
+					</p>
+				</div>
+				<div class="Icon-centre">
+					<img class="Icon" src="../assets/Icon-money2.svg" alt="Money" />
+					<h3>Consumer Payments</h3>
+					<p>
+						It's easier to set up secure bank payments with us through a flow
+						designed with the user experience in mind. Customers could instantly
+						authenticate their account.
+					</p>
+				</div>
+			</section>
+			<section class="tout-centré">
+				<h3>Ready to start?</h3>
+				<form class="hero-form">
+					<input type="email" placeholder="Enter email address" />
+					<a class="btn-primary-light" href="./Pages/Contact.html">
+						Schedule a Demo
+					</a>
+				</form>
 			</section>
 		</main>
 		<footer>
-			<img src="../assets/Payapi-End.svg" alt="Icon de Payapi" />
-			<p><a href="Pages/Pricing.html">Pricing</a></p>
-			<p><a href="Pages/About.html">About</a></p>
-			<p><a href="Pages/Contact.html">Contact</a></p>
-			<img src="../assets/reseau sociaux.svg" alt="reseau sociaux" />
+			<div class="Fin tout-centré">
+				<div class="texte">
+					<img src="../assets/Payapi-End.svg" alt="Icon de Payapi" />
+					<p><a class="Test-none" href="Pages/Pricing.html">Pricing</a></p>
+					<p><a class="Test-none" href="Pages/About.html">About</a></p>
+					<p><a class="Test-none" href="Pages/Contact.html">Contact</a></p>
+				</div>
+				<div class="social-network">
+					<img src="./assets/facebook.svg" alt="facebook" />
+					<img src="./assets/twitter.svg" alt="twitter" />
+					<img src="./assets/instagram.svg" alt="instagram" />
+				</div>
+			</div>
 		</footer>
 	</body>
 </html>

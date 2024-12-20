@@ -42,7 +42,7 @@ nav {
 	display: none;
 }
 .button {
-	display: none;
+	display: none !important;
 }
 
 .Start {
@@ -119,7 +119,8 @@ p.Contact-home {
 }
 
 h2 {
-	font-size: 32px;
+	font-size: 48px;
+	line-height: 56px;
 	color: rgba(251, 252, 254, 1);
 	text-align: center;
 	width: max-content;
@@ -245,6 +246,14 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+.Menu-2-parti-2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.black {
+	color: #1b262f;
 }
 @media screen and (min-width: 768px) {
 	nav {
@@ -387,5 +396,52 @@ footer {
 		flex-direction: row;
 		gap: 20px;
 		text-align: left;
+	}
+	.text-espace{
+		display: flex;
+    	flex-direction: column;
+    	margin: 75px;
+    	text-align: center;
+	}
+	.code-image{
+		margin: 15px;
+		height: 400px;
+	}
+	.Menu-2-parti-2{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	}
+	.code-image-iphone{
+		height: 575px;;
+	}
+	.Icon-centre{
+		gap: 35px;
+	}
+	.Icon {
+		height: 145px;
+	}
+	.Ready{
+		display: flex;
+    	flex-direction: row;
+    	justify-content: space-around;
+		margin: 100px;
+	}
+	.hero-form{
+		width: 28%;
+	}
+	.Ready{
+		gap:215px;
+	}
+	.hover:hover{
+		background-color: #da6d97;
+	}
+	.hover-1:hover{
+		background-color: #fbfcfe;
+		color: #1b262f;
+		font-weight: 700;
+	}
+	.hover-2:hover{
+		color: rgba(255, 0, 0, 0.7);
 	}
 }
